@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<script type="text/javascript" src="simpleClock.js"></script> 
+			<title>
+				Simple JavaScript Clock
+			</title>
+		</head>
+		<body>
+			<script>
+				function updateTime() {
+					
+					let timeJson = new Clock();
+	
+					console.log(timeJson["hour"]);
+				
+
+				}
+				setInterval(updateTime, 10);
+
+			</script>
+		</body>
+	</html>
