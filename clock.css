@@ -1,0 +1,25 @@
+@keyframes clockTilt {
+    from {transform: rotate(0deg);}
+    to  {transform: rotate(360deg);}
+    
+}
+
+.clockText {
+    background-color: black;
+    padding-top: 10%;
+    padding-left: 30%;
+    font-size: 50px;
+    color: blue;
+    font-family: "Bungee Shade";
+    transition: font-size 10s, padding-left 10s, color 10s, background-color 10s;
+}
+
+.clockText:hover {
+    font-size: 100px;
+    padding-left: 10%;
+    color: green;
+    background-color: yellow;
+}
+.spacer {
+    padding-top: 10%;
+}

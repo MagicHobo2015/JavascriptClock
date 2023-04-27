@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Shade">
+			<link rel="stylesheet" href="clock.css">
 			<script type="text/javascript" src="simpleClock.js"></script> 
 			<title>
 				Simple JavaScript Clock
 			</title>
 		</head>
 		<body>
-			<script>
-				function updateTime() {
-					
-					let timeJson = new Clock();
-	
-					console.log(timeJson["hour"]);
-				
-
-				}
-				setInterval(updateTime, 10);
-
-			</script>
+			<script> setInterval(updateClock, 100);</script>
+			<div class="spacer">
+			<div class="clockText" id="clockText"> <!--This is where the clock is injected--> </div> 
+			</div>
+			<div>
+				<input id="checkBox" type="checkbox">
+			</div>
 		</body>
 	</html>
