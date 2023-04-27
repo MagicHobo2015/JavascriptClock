@@ -9,7 +9,6 @@ function Clock() {
 
 	// bundle it all in some json
 	let time = { "hour" : hour, "minute" : minutes, "seconds" : seconds }
-	console.log(time["seconds"]);
 	return  time;
 
 
